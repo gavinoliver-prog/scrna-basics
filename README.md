@@ -8,7 +8,7 @@ A beginner-friendly series of Jupyter notebooks for learning single-cell RNA-seq
 |---|----------|-------|
 | 0 | `scrna_cell_hashing.ipynb` | Cell hashing and sample demultiplexing: loading HTO + RNA data, CLR normalization, GMM-based singlet/doublet/negative classification, and splitting into per-sample AnnData objects |
 | 1 | `scrna_basic_intro.ipynb` | End-to-end walkthrough: QC, normalization, clustering, UMAP, and cell type annotation with CellTypist |
-| 2 | `scrna_batches.ipynb` | Batch effects and integration: Harmony, Scanorama, and scVI compared side-by-side; biological signal retention verified with marker genes, cluster batch composition, and CellTypist annotation |
+| 2 | `scrna_batches.ipynb` | Batch effects and integration: Harmony, Scanorama, and scVI compared side-by-side; biological signal retention verified with marker genes, cluster batch composition, CellTypist annotation, and T-cell subtype gradient analysis (CCR7, IL7R, GZMB/PRF1, FOXP3) |
 | 3 | `scrna_differential_expression.ipynb` | Differential expression between cell types and between conditions |
 | 4 | `scrna_trajectory.ipynb` | Trajectory inference and pseudotime with PAGA and Diffusion Pseudotime |
 
